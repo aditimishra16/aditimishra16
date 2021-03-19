@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Static Webpage</title>
+<meta charset = "UTF-8">
+<link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Raleway">
+<link rel = "stylesheet" href = "https://fonts.google.com/specimen/Pathway+Gothic+One">
+<style>
+
+* {
+  font-family: verdana;
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Pathway Gothic One";
+  text-align: center;
+  background-color: yellow;
+}
+
+.underline {
+  font-family : "Raleway";
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+}
+
+.content img {
+  margin-right: 10px;
+  display: block;
+}
+.content p {margin: 0;}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+</style>
+</head>
+
+</head>
+<body>
+
+  <h1> The Mona Lisa </h1>
+  <h3> By: The Mona Lisa Fans </h3>
+  <div class = "content">
+    <img class = "image" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd5q6rJ_yidri6AMXWQR5OKvBSqvCanLSLM9maCaOm3WELZoPCBFCRX69v5Fdbc8x0TxQ&usqp=CAU" alt = "The Mona Lisa">
+    <p> Mona Lisa is an oil painting of Lisa Ghradini, the wife of __, on a poplar wood panel by Leonardo da Vinci. This painting, painted sometime between 1503 and 1519, is arguably the world's most famous painting. Today, it is being kept in the famous Louvre museum in Paris, and is visited by more than 10.2 million people every year. <br>
+  </div>
+
+  <h3 class = "underline"> Mona Lisa in the past few centuries </h3>
+        <table bgcolor = "yellow">
+          <tr>
+            <th> Year(s) </th>
+            <th> Event </th>
+          </tr>
+        <tbody>
+          <tr>
+            <td> Early 1500s </td>
+            <td> Leonardo da Vinci began painting the Mona Lisa about 1503, and it was in his studio when he died in 1519</td>
+          </tr>
+          <tr>
+            <td> late 1500s to late 1700s </td>
+            <td> French King Francis I acquired the work after the artist’s death, and it became part of the royal collection in France's palaces. Centuries later, insurgents claimed the royal collection as the property of the people during the French Revolution (1787–99). </td>
+          </tr>
+          <tr>
+            <td> 19th century </td>
+            <td> The painting hung in Napolepn's bedroom </td>
+          </tr>
+          <tr>
+            <td> Early 19th century </td>
+            <td> The Mona Lisa was installed in the Louvre Museum at the turn of the 19th century.
+          </tr>
+          <tr>
+            <td> 1911 </td>
+            <td> The painting was stolen </td>
+          </tr>
+          <tr>
+            <td> 1913 </td>
+            <td> Two years later, the police found the portrait stashed in the false bottom of a trunk belonging to an Italian immigrant who had briefly worked at the Louvre fitting glass on a selection of paintings, including the Mona Lisa. He was arrested, tried, and imprisoned, while the Mona Lisa took a tour of Italy before making its triumphant return to France. </td>
+          </tr>
+          <tr>
+            <td> World War II </td>
+            <td> The Mona Lisa, singled out as the most-endangered artwork in the Louvre, was evacuated to various locations in France’s countryside, returning to the museum in 1945 after peace had been declared.
+          </tr>
+          <tr>
+            <td> Post World War II </td>
+            <td> The glass protecting the Mona Lisa was replaced with a bulletproof case after several attacks in 1956, one of which damaged an area near the subject’s left elbow. The Mona Lisa thus escaped harm from acts of vandalism in 1974 during the work’s visit to Tokyo and in 2009 when a museumgoer threw a ceramic mug at it. </td>
+          </tr>
+        </table>
+  <h3 class = "underline">Fun facts about the Mona Lisa:</h3>
+  <ul>
+         <li> She has broken many hearts: When the painting was first put on public display, a string of "suitors bearing flowers, poems and impassioned notes arrived solely to gaze into her eyes.
+         <li> The entire country of France mourned when she was stolen: The New York Times retroactively compared the public display of grief to that seen in the wake of Princess Diana's death in 1997. Thousands came to look at the blank wall in Louvre in shock where she once hung and left flowers, notes, and other remembrances.
+         <li> Pablo Picasso was suspected to have stolen the Mona Lisa: He has been caught buying stolen Louvre pieces before, so he was brought in for questioning
+  </ul>
+
+  <p> Would you like to get more information about the Mona Lisa? Enter your particulars below and we'll be in touch with you soon! </p>
+  <form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Your name" placeholder="John Doe" required><br>
+    <label for="email">Enter your email:</label><br>
+    <input type="text" id="lname" name="lname" value="Your email" placeholder="abc@example.com" required><br>
+    <label for="myfile">Would you like to work with us? Send us your resume and we will contact you soon!</label>
+    <input type="file" id="myfile" name = "myfile">
+    <a href = "http://programminghead.com">
+      <input type="submit" value="Submit">
+    </a>
+  </form>
+
+
+</body>
+</html>

@@ -100,14 +100,12 @@ table, th, td {
   <p> Would you like to get more information about the Mona Lisa? Enter your particulars below and we'll be in touch with you soon! </p>
   <form action="/action_page.php">
     <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="Your name" placeholder="John Doe" required><br>
+    <input type="text" id="fname" name="fname" value="Your name"><br>
     <label for="email">Enter your email:</label><br>
-    <input type="text" id="lname" name="lname" value="Your email" placeholder="abc@example.com" required><br>
+    <input type="text" id="lname" name="lname" value="Your email"><br>
     <label for="myfile">Would you like to work with us? Send us your resume and we will contact you soon!</label>
     <input type="file" id="myfile" name = "myfile">
-    <a href = "https://aditimishra16.github.io/am/">
-      <input type="submit" value="Submit">
-    </a>
+    <input type=button onClick="parent.location='https://aditimishra16.github.io/am/'" value='submit'>
   </form>
 
 
